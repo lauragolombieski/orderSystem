@@ -1,9 +1,9 @@
 import express from "express";
-import orderRoutes from "./routes/orderRoutes";
+import { setupSwagger } from "./config/swagger";
 
 const app = express();
 
 app.use(express.json());
-app.use("/orders", orderRoutes);
+setupSwagger(app);
 
 export default app;

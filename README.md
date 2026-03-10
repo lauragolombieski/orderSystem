@@ -17,10 +17,14 @@ Um projeto Node.js com Express, TypeScript e TypeORM pra gerenciar pedidos (orde
 
 Clone o repositório e instale as dependências:
 
-git clone <repository-url>
+git clone git@github.com:lauragolombieski/orderSystem.git
+
 cd orderSystem
+
 npm install
+
 npm run build
+
 npm run migrate
 
 ## Execute o Projeto
@@ -28,3 +32,6 @@ npm run migrate
 npm run dev
 
 O servidor rodará na porta 3000: `http://localhost:3000`
+
+## Para verificar a documentação:
+`http://localhost:3000/api-docs`
